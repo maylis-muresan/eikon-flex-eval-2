@@ -24,6 +24,22 @@
   align-self: flex-end;
 }
 /* 4. exercice-4 */
+.exercice-4 .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end
+}
+.exercice-4 .element-red {
+  order: ;
+}
+.exercice-4 .element-gray {
+  order: 2;
+}
+.exercice-4 .element-pink {
+  order: 0;
+  align-self: flex-start;
+}
 
 /* 5. exercice-5 */
 
