@@ -1,5 +1,9 @@
 /* 1. exercice-1 */
-
+.exercice-1 .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 /* 2. exercice-2 */
 
 /* 3. exercice-3 */
