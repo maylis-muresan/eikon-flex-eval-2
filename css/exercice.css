@@ -53,6 +53,20 @@
 }
 /* 6. exercice-6 */
 
+.exercice-6 .container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap-reverse;
+  align-content: space-around;
+  
+}
+.exercice-6 .element-pink {
+  order: 1;
+  flex-grow: 1;
+}
+.exercice-6 .element-red {
+  order: -1;
+}
 /* 7. exercice-7 */
 
 .exercice-7 .container {
