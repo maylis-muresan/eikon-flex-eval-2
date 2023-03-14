@@ -43,6 +43,14 @@
 
 /* 5. exercice-5 */
 
+.exercice-5 .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+}
+.exercice-5 .element-red {
+  order: -1;
+}
 /* 6. exercice-6 */
 
 /* 7. exercice-7 */
