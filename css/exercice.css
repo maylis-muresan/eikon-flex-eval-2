@@ -98,6 +98,17 @@
 }
 /* 9. exercice-9 */
 
+.exercice-9 .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.exercice-9 .element-pink {
+  order: 1;
+}
+.exercice-9 .element-red {
+  order: -1;
+}
 /* 10. exercice-10 */
 .exercice-10 .container {
   display: flex;
