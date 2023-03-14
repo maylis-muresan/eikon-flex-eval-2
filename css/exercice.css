@@ -1,114 +1,19 @@
 /* 1. exercice-1 */
-.exercice-1 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-}
 
 /* 2. exercice-2 */
-.exercice-2 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 /* 3. exercice-3 */
-.exercice-3 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.exercice-3 .container .element-blue {
-  align-self: flex-end;
-  order: 2;
-}
 
 /* 4. exercice-4 */
-.exercice-4 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-.exercice-4 .container .element-pink {
-  align-self: flex-start;
-}
-
-.exercice-4 .container .element-blue {
-  order: -1;
-}
 
 /* 5. exercice-5 */
-.exercice-5 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
-  justify-content: flex-end;
-  align-content: flex-end;
-}
-
 
 /* 6. exercice-6 */
-.exercice-6 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
-  justify-content: flex-end;
-  align-content: space-around;
-}
-
-.exercice-6 .element {
-  flex-grow: 1;
-}
 
 /* 7. exercice-7 */
-.exercice-7 .container {
-  display: flex;
-  flex-flow: column-reverse wrap;
-  align-content: center;
-  justify-content: space-between;
-}
 
 /* 8. exercice-8 */
-.exercice-8 .container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: baseline;
-  align-content: flex-end;
-}
-
-.exercice-8 .container .element {
-  flex-grow: 1;
-}
-
-.exercice-8 .container .element-pink {
-  order: 1;
-}
 
 /* 9. exercice-9 */
-.exercice-9 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  align-items: baseline;
-  align-content: center;
-}
-
-.exercice-9 .container .element {
-  width: 50%;
-  box-sizing: border-box;
-}
 
 /* 10. exercice-10 */
-.exercice-10 .container {
-  display: flex;
-}
-
-.exercice-10 .element {
-  margin: auto;
-}
