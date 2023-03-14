@@ -60,3 +60,8 @@
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
+.exercice-10 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
